@@ -5,7 +5,7 @@ package demo.test;
  */
 public class HelloAndorid {
     public static void main(String[] args) {
-        String str = "Hellooo";
+        String str = "Hellooojo";
 
         System.out.println(str);
     }
