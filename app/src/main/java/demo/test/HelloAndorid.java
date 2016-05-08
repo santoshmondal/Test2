@@ -9,6 +9,7 @@ public class HelloAndorid {
 
         System.out.println(str);
         System.out.println("at editorr1");
+        System.out.println("at editorr1");
         System.out.println("at editor2");
     }
 }
