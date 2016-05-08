@@ -8,5 +8,7 @@ public class TestClass {
         System.out.println("test");
         System.out.println("webtest");
         
+        System.out.println("test");
+        System.out.println("test");
     }
 }
