@@ -5,8 +5,9 @@ package demo.test;
  */
 public class HelloAndorid {
     public static void main(String[] args) {
-        String str = "Hellooojo";
+        String str = "Hellooojooo";
 
         System.out.println(str);
+        System.out.println("at editor1");
     }
 }
