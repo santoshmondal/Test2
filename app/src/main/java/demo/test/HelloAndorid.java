@@ -8,6 +8,6 @@ public class HelloAndorid {
         String str = "Hellooojooo";
 
         System.out.println(str);
-        System.out.println("at editor1");
+        System.out.println("at editorr1");
     }
 }
