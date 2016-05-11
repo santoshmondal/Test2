@@ -13,10 +13,12 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".Main22Activity" />
-        <activity android:name=".Main23Activity"></activity>
-        <activity android:name=".Main24Activity">
+        <activity android:name=".Main23Activity" />
+        <activity android:name=".Main24Activity" />
+        <activity android:name=".Main25Activity"></activity>
+        <activity android:name=".Main26Activity">
         </activity>
-        <activity android:name=".Main25Activity">
+        <activity android:name=".Main27Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
