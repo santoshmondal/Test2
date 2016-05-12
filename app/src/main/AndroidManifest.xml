@@ -17,18 +17,21 @@
         <activity android:name=".Main24Activity" />
         <activity android:name=".Main25Activity" />
         <activity android:name=".Main26Activity" />
-        <activity android:name=".Main27Activity"></activity>
-        <activity android:name=".Main28Activity">
+        <activity android:name=".Main27Activity" />
+        <activity android:name=".Main28Activity" />
+        <activity
+            android:name=".Main29Activity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
+        <activity android:name=".Main210Activity" />
+        <activity android:name=".Main211Activity"></activity>
+        <activity android:name=".Main212Activity">
+        </activity>
+        <activity android:name=".Main213Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:theme="@style/Base.Theme.AppCompat.Dialog"
-            android:name=".Main29Activity">
-
         </activity>
     </application>
 
