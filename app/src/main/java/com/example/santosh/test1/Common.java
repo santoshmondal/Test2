@@ -31,4 +31,22 @@ public class Common {
 
         return datalist;
     }
+
+    public static List<SamplePojo> getSampleData(int no) {
+        Random random = new Random();
+
+        List<SamplePojo> datalist = new ArrayList<>();
+        for(int i=0; i<no; i++) {
+            SamplePojo data = new SamplePojo();
+
+            int val = random.nextInt(7);
+
+            data.setTitle(PROG[val] +  " Programming");
+            data.setDescr("Application development using " + PROG[val]);
+
+            datalist.add(data);
+        }
+
+        return datalist;
+    }
 }
