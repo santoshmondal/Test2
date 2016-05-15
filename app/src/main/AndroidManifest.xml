@@ -25,11 +25,11 @@
         <activity android:name=".Main210Activity" />
         <activity android:name=".Main211Activity" />
         <activity android:name=".Main212Activity" />
-        <activity android:name=".Main213Activity"></activity>
-        <activity android:name=".Main214Activity">
-
-        </activity>
+        <activity android:name=".Main213Activity" />
+        <activity android:name=".Main214Activity"></activity>
         <activity android:name=".Main215Activity">
+        </activity>
+        <activity android:name=".Main217Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
