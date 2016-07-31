@@ -17,4 +17,21 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+
+    <style name="s1">
+        <item name="android:textColor">#aa050cda</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="s1.s2">
+        <item name="android:textColor">#b43030</item>
+        <item name="android:background">#ef9c9c</item>
+    </style>
+
+    <style name="s1.s2.s3">
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+
 </resources>

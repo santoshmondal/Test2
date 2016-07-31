@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.santosh.test1">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name="android.support.multidex.MultiDexApplication"
@@ -30,12 +30,24 @@
         <activity android:name=".Main212Activity" />
         <activity android:name=".Main213Activity" />
         <activity android:name=".Main214Activity" />
-        <activity android:name=".Main215Activity"></activity>
-        <activity android:name=".Main217Activity">
+        <activity android:name=".Main215Activity" />
+        <activity android:name=".Main217Activity" />
+        <activity android:name=".Main218Activity" />
+        <activity android:name=".Main219Activity">
         </activity>
-        <activity android:name=".Main218Activity">
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyIntentService"
+            android:exported="false" />
+
+        <activity android:name=".MyServiceActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
