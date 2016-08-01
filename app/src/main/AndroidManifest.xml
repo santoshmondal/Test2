@@ -33,8 +33,7 @@
         <activity android:name=".Main215Activity" />
         <activity android:name=".Main217Activity" />
         <activity android:name=".Main218Activity" />
-        <activity android:name=".Main219Activity">
-        </activity>
+        <activity android:name=".Main219Activity"></activity>
 
         <service
             android:name=".MyService"
@@ -45,6 +44,9 @@
             android:exported="false" />
 
         <activity android:name=".MyServiceActivity">
+
+        </activity>
+        <activity android:name=".MyActivityWithPendent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
