@@ -31,7 +31,13 @@
         <activity android:name=".Main213Activity" />
         <activity android:name=".Main214Activity" />
         <activity android:name=".Main215Activity" />
-        <activity android:name=".Main217Activity" />
+        <activity android:name=".Main217Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Main218Activity" />
         <activity android:name=".Main219Activity" />
 
@@ -46,11 +52,7 @@
         <activity android:name=".MyServiceActivity" />
         <activity android:name=".MyActivityWithPendent" />
         <activity android:name=".MyBroadcastReceiverActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <receiver
@@ -59,6 +61,8 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.REBOOT" />
             </intent-filter>
         </receiver>
         <receiver
@@ -69,6 +73,9 @@
                 <action android:name="com.example.CUSTOM" />
             </intent-filter>
         </receiver>
+
+        <activity android:name=".Main3ActivityLifeCycle" />
+        <activity android:name=".Main3ActivityFrameDemo"></activity>
     </application>
 
 </manifest>
